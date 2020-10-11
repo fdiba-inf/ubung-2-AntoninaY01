@@ -10,8 +10,8 @@ public class Circle {
 
 
    double R = input.nextInt();
-   double C = 2*3.14*R;
-   double A = 3.14*R*R;
+   double C = 2*Math.PI*R;
+   double A = Math.PI*R*R;
 
    System.out.println("Circumference: " + C);
    System.out.println("Area: " + A);
